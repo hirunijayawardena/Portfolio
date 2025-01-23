@@ -1,11 +1,79 @@
-<html>
-    <head>
-        
-    </head>
-    <body>
-        <h1>This is my portfolio
-        </h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hiruni's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <h1>Hiruni Jayawardena</h1>
+      <p>Aspiring UX Designer | Flutter Developer | Creative Thinker</p>
+      <nav>
+        <ul>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-        <script src="index.js"></script>
-    </body>
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>
+        I'm a passionate UX designer and developer aiming to craft seamless user experiences.
+        Explore my work below and see how I transform ideas into impactful designs.
+      </p>
+    </div>
+  </section>
+
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+      <h2>My Work</h2>
+      <div class="portfolio-grid">
+        <div class="portfolio-item">
+          <h3>30-Day UI Challenge</h3>
+          <p>Daily creative UI designs to hone my skills.</p>
+        </div>
+        <div class="portfolio-item">
+          <h3>Case Studies</h3>
+          <p>In-depth UX design case studies showcasing my problem-solving approach.</p>
+        </div>
+        <div class="portfolio-item">
+          <h3>Recreated Apps</h3>
+          <p>Functional applications built using Flutter and other frameworks.</p>
+        </div>
+        <div class="portfolio-item">
+          <h3>Flutter Projects</h3>
+          <p>A collection of my best Flutter projects, including a quiz app, expense tracker, and more.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>Feel free to reach out for collaborations, opportunities, or just to say hi!</p>
+      <form id="contactForm">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Hiruni Jayawardena. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
 </html>
