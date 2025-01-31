@@ -60,12 +60,6 @@
     margin-top: 50px;
 }
 
-.case-studies h2 {
-    font-size: 2rem;
-    color: #8D77AB;
-    margin-bottom: 20px;
-}
-
 .case-study-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -76,9 +70,11 @@
 .case-card {
     background-color: #fff;
     border-radius: 10px;
-    padding: 20px;
+    padding: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: 0.3s;
+    max-width: 400px;
+    margin: 0 auto;
 }
 
 .case-card:hover {
@@ -87,20 +83,21 @@
 
 .case-card img {
     width: 100%;
+    height: 280px;
+    object-fit: cover;
     border-radius: 10px;
-    height: auto;
 }
 
 .case-card h3 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: #8D77AB;
-    margin-top: 10px;
+    margin-top: 8px;
 }
 
 .case-card p {
-    font-size: 1rem;
+    font-size: 0.9rem;
     color: #555;
-    margin-top: 5px;
+    margin-top: 4px;
 }
 
 @media (max-width: 768px) {
@@ -120,5 +117,22 @@
         max-width: 250px;
         margin-top: 20px;
     }
+}
+
+/* Behance Button */
+.case-card a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #8D77AB;
+    color: white;
+    font-size: 0.9rem;
+    padding: 8px 12px;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.case-card a:hover{
+    background-color: #745F8F;
 }
 
