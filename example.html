@@ -5,23 +5,175 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Navigation Bar</title>
     <link rel="stylesheet" href="example.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.15.0/Sortable.min.js"></script>
     <style>
         
     </style>
 </head>
 <body>
-    <div class="container">
-        <nav class="navbar">
-            <div class="logo">Hiruni Jayawardena</div>
-            <ul class="nav-links">
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="design.html">Design</a></li>
-                <li><a href="development.html">Development</a></li>
-                <li><a href="#">CV</a></li>
 
-            </ul>
-        </nav>
+     
+
+    <h2>30-Day UI/UX Challenge</h2>
+    <a href="#" class="view-all">View All Designs</a>
+    <div class="carousel-container">
+        <button class="prev" onclick="scrollCarousel(-1)">&#10094;</button>
+        <div class="carousel" id="card-container">
+            <figure>
+                <img src="https://picsum.photos/id/287/250/300" alt="Mountains">
+                <figcaption>Day 01</figcaption>
+            </figure>
+            <figure style="--c:#fff5">
+                <img src="https://picsum.photos/id/475/250/300" alt="Mountains">
+                <figcaption>Day 02</figcaption>
+            </figure>
+            <figure>
+                <img src="https://picsum.photos/id/287/250/300" alt="Mountains">
+                <figcaption>Day 03</figcaption>
+            </figure>
+            <figure style="--c:#fff5">
+                <img src="https://picsum.photos/id/475/250/300" alt="Mountains">
+                <figcaption>Day 04</figcaption>
+            </figure>
+            <figure style="--c:#fff5">
+                <img src="https://picsum.photos/id/475/250/300" alt="Mountains">
+                <figcaption>Day 05</figcaption>
+            </figure>
+            <figure style="--c:#fff5">
+                <img src="https://picsum.photos/id/475/250/300" alt="Mountains">
+                <figcaption>Day 06</figcaption>
+            </figure>
+            <figure style="--c:#fff5">
+                <img src="https://picsum.photos/id/475/250/300" alt="Mountains">
+                <figcaption>Day 07</figcaption>
+            </figure>
+            <figure style="--c:#fff5">
+                <img src="https://picsum.photos/id/475/250/300" alt="Mountains">
+                <figcaption>Day 08</figcaption>
+            </figure>
+            <figure style="--c:#fff5">
+                <img src="https://picsum.photos/id/475/250/300" alt="Mountains">
+                <figcaption>Day 09</figcaption>
+            </figure>
+            <figure style="--c:#fff5">
+                <img src="https://picsum.photos/id/475/250/300" alt="Mountains">
+                <figcaption>Day 10</figcaption>
+            </figure>
+
+            <figure>
+                <img src="https://picsum.photos/id/287/250/300" alt="Mountains">
+                <figcaption>Day 11</figcaption>
+            </figure>
+            <figure style="--c:#fff5">
+                <img src="https://picsum.photos/id/475/250/300" alt="Mountains">
+                <figcaption>Day 12</figcaption>
+            </figure>
+            <figure>
+                <img src="https://picsum.photos/id/287/250/300" alt="Mountains">
+                <figcaption>Day 13</figcaption>
+            </figure>
+            <figure style="--c:#fff5">
+                <img src="https://picsum.photos/id/475/250/300" alt="Mountains">
+                <figcaption>Day 14</figcaption>
+            </figure>
+            <figure style="--c:#fff5">
+                <img src="https://picsum.photos/id/475/250/300" alt="Mountains">
+                <figcaption>Day 15</figcaption>
+            </figure>
+            <figure style="--c:#fff5">
+                <img src="https://picsum.photos/id/475/250/300" alt="Mountains">
+                <figcaption>Day 16</figcaption>
+            </figure>
+            <figure style="--c:#fff5">
+                <img src="https://picsum.photos/id/475/250/300" alt="Mountains">
+                <figcaption>Day 17</figcaption>
+            </figure>
+            <figure style="--c:#fff5">
+                <img src="https://picsum.photos/id/475/250/300" alt="Mountains">
+                <figcaption>Day 18</figcaption>
+            </figure>
+            <figure style="--c:#fff5">
+                <img src="https://picsum.photos/id/475/250/300" alt="Mountains">
+                <figcaption>Day 19</figcaption>
+            </figure>
+            <figure style="--c:#fff5">
+                <img src="https://picsum.photos/id/475/250/300" alt="Mountains">
+                <figcaption>Day 20</figcaption>
+            </figure>
+
+            <figure>
+                <img src="https://picsum.photos/id/287/250/300" alt="Mountains">
+                <figcaption>Day 21</figcaption>
+            </figure>
+            <figure style="--c:#fff5">
+                <img src="https://picsum.photos/id/475/250/300" alt="Mountains">
+                <figcaption>Day 22</figcaption>
+            </figure>
+            <figure>
+                <img src="https://picsum.photos/id/287/250/300" alt="Mountains">
+                <figcaption>Day 23</figcaption>
+            </figure>
+            <figure style="--c:#fff5">
+                <img src="https://picsum.photos/id/475/250/300" alt="Mountains">
+                <figcaption>Day 24</figcaption>
+            </figure>
+            <figure style="--c:#fff5">
+                <img src="https://picsum.photos/id/475/250/300" alt="Mountains">
+                <figcaption>Day 25</figcaption>
+            </figure>
+            <figure style="--c:#fff5">
+                <img src="https://picsum.photos/id/475/250/300" alt="Mountains">
+                <figcaption>Day 26</figcaption>
+            </figure>
+            <figure style="--c:#fff5">
+                <img src="https://picsum.photos/id/475/250/300" alt="Mountains">
+                <figcaption>Day 27</figcaption>
+            </figure>
+            <figure style="--c:#fff5">
+                <img src="https://picsum.photos/id/475/250/300" alt="Mountains">
+                <figcaption>Day 28</figcaption>
+            </figure>
+            <figure style="--c:#fff5">
+                <img src="https://picsum.photos/id/475/250/300" alt="Mountains">
+                <figcaption>Day 29</figcaption>
+            </figure>
+            <figure style="--c:#fff5">
+                <img src="https://picsum.photos/id/475/250/300" alt="Mountains">
+                <figcaption>Day 30</figcaption>
+            </figure>
+        </div>
+        <button class="next" onclick="scrollCarousel(1)">&#10095;</button>
     </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const container = document.getElementById("card-container");
+            for (let i = 1; i <= 4; i++) { // Limit to 4 cards
+                const figure = document.createElement("figure");
+                figure.innerHTML = `
+                    <img src="images/design${i}.jpg" alt="Design ${i}">
+                    <figcaption>Day ${i}</figcaption>
+                `;
+                container.appendChild(figure);
+            }
+            updateButtons();
+        });
+
+        function scrollCarousel(direction) {
+            const container = document.querySelector(".carousel");
+            container.scrollBy({ left: direction * 300, behavior: 'smooth' });
+            setTimeout(updateButtons, 500); // Delay to update button visibility after scrolling
+        }
+
+        function updateButtons() {
+            const container = document.querySelector(".carousel");
+            const prevBtn = document.querySelector(".prev");
+            const nextBtn = document.querySelector(".next");
+            
+            prevBtn.style.display = container.scrollLeft > 0 ? "block" : "none";
+            nextBtn.style.display = container.scrollLeft + container.clientWidth < container.scrollWidth ? "block" : "none";
+        }
+    </script>
+    
 </body>
 </html>
