@@ -14,11 +14,14 @@
 }
 
 .hero-left h1 {
-    font-size: 65px;
+    font-family: "Concert One", serif;
+    font-weight: 500;
+    font-size: 70px;
     color: #8D77AB;
 }
 
 .hero-left p {
+    font-family: "Inter", serif;
     font-size: 1.2rem;
     color: #555;
     margin-top: 10px;
@@ -89,12 +92,14 @@
 }
 
 .case-card h3 {
+    font-family: "Concert One", serif;
     font-size: 1.2rem;
     color: #8D77AB;
     margin-top: 8px;
 }
 
 .case-card p {
+    font-family: "Inter", serif;
     font-size: 0.9rem;
     color: #555;
     margin-top: 4px;
@@ -121,6 +126,7 @@
 
 /* Behance Button */
 .case-card a{
+    font-family: "Montserrat", serif;
     display: inline-block;
     text-decoration: none;
     background-color: #8D77AB;
