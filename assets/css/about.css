@@ -9,7 +9,7 @@
 }
 
 .about-left {
-    flex: 5;
+    flex: 4;
 }
 
 .about-left h1 {
@@ -27,13 +27,13 @@
 }
 
 .about-right {
-    flex: 5;
+    flex: 4;
     text-align: center;
 }
 
 .about-right img {
     width: 100%;
-    max-width: 500px;
+    max-width: 330px;
     border-radius: 10px;
 }
 
@@ -63,8 +63,9 @@
     text-decoration: none;
     background-color: #8D77AB; /* Muted Orange */
     color: white;
-    font-size: 0.9rem;
-    padding: 8px 12px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 22px;
     border-radius: 5px;
     margin-top: 10px;
     transition: 0.3s;
