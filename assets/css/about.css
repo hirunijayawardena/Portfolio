@@ -14,12 +14,13 @@
 
 .about-left h1 {
     font-family: "Concert One", serif;
-    
-    font-size: 65px;
+    font-weight: 500;
+    font-size: 70px;
     color: #8D77AB;
 }
 
 .about-left p {
+    font-family: "Inter", serif;
     font-size: 1.2rem;
     color: #555;
     margin-top: 10px;
@@ -57,6 +58,7 @@
 
 /* buttons */
 .about-left a {
+    font-family: "Montserrat", serif;
     display: inline-block;
     text-decoration: none;
     background-color: #8D77AB; /* Muted Orange */
